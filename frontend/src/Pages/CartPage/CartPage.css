@@ -1,0 +1,159 @@
+.cartTitle {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(2, 143, 2);
+}
+
+.cartSubtitle {
+    color: blueviolet;
+}
+
+.cart-items {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.cartCard {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 20px;
+    border: 1px solid silver;
+    border-radius: 4px;
+    width: calc(50% - 60px);
+}
+
+.cartIconInCartPlace {
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    border: 2px solid rgb(2, 143, 2);
+}
+
+.cartHeader {
+    display: flex;
+    gap: 12px;
+}
+
+.cartHeader>img {
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.cartSubHeader>h2 {
+    margin: 0 0 6px 0;
+}
+
+.price {
+    color: orange;
+}
+
+.total-price {
+    color: rgb(143, 69, 143);
+}
+
+.free-delivery-message {
+    background-color: #e0f7fa;
+    border: 1px solid #00796b;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    color: #00796b;
+    text-align: center;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+
+.footer {
+    padding: 24px;
+}
+
+.continueShoppingBtn {
+    background-color: darkblue;
+    border: 3px solid aqua;
+    padding: 8px 16px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.useVoucherBtn {
+    background-color: blue;
+    color: white;
+    border: 3px solid aqua;
+    padding: 8px 16px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.checkoutBtn {
+    background-color: darkblue;
+    color: white;
+    border: 3px solid aqua;
+    padding: 8px 16px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+
+.continueShoppingBtn>a {
+    text-decoration: none;
+    color: white;
+}
+
+.totalCartPrice {
+    color: rgb(0, 114, 0);
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    opacity: 1;
+}
+
+.afterVoucherPrice {
+    color: purple;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.removeItemBtn {
+    background-color: aqua;
+    border: none;
+    padding: 8px 16px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    color: darkblue;
+}
+
+.voucherCode {
+    border: 3px solid aqua;
+    padding: 8px 16px;
+    font-size: 1rem;
+    border-radius: 4px;
+}
+
+@media (max-width: 480px) {
+    .cartCard {
+        width: calc(100% - 40px);
+    }
+
+    .free-delivery-message {
+        font-size: 1rem;
+    }
+}

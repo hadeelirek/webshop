@@ -1,0 +1,50 @@
+.aboutUs {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+.AboutUsImg {
+    width: 40%;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.aboutUsText {
+    overflow: hidden;
+}
+
+.aboutUs p {
+    line-height: 1.6;
+    color: #333;
+    font-size: 16px;
+}
+
+.aboutUs p strong {
+    color: #00ac00;
+    font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+    .aboutUs {
+        padding: 15px;
+        margin: 10px;
+    }
+
+    .AboutUsImg {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 15px;
+        float: none;
+    }
+
+    .aboutUs p {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,10 @@
+export { default as SignupPage } from './SignupPage/SignupPage';
+export { default as LoginPage } from './LoginPage/LoginPage';
+export { default as ProductsPage } from './ProductsPage/ProductsPage';
+export { default as NavBar } from './NavBar/NavBar';
+export { default as ForgotPassword } from './ForgotPassword/ForgotPassword';
+export { default as UpdateAccount } from './UpdateAccount/UpdateAccount';
+export { default as Vouchers } from './Vouchers/Vouchers';
+export { default as CartPage } from './CartPage/CartPage';
+export { default as AboutUs } from './AboutUs/AboutUs';
+export { default as History } from './History/Orders';

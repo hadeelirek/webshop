@@ -1,0 +1,78 @@
+.voucher-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 40px;
+}
+
+.voucher-card {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.voucher-card h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.voucher-card p {
+    font-size: 0.9rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.voucher-code {
+    font-size: 1.1rem;
+    font-weight: bold;
+    background: #f0f0f0;
+    padding: 8px;
+    border-radius: 3px;
+    color: black;
+}
+
+.voucher-code {
+    font-size: 1.1rem;
+    font-weight: bold;
+    background: #f0f0f0;
+    padding: 8px;
+    border-radius: 3px;
+    color: black;
+}
+
+/* For smaller screens (Mobile Devices) */
+@media (max-width: 767px) {
+    .voucher-cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        margin-top: 20px;
+        padding: 0 10px;
+    }
+
+    .voucher-card {
+        width: 100%;
+        padding: 12px;
+        max-width: 100%;
+    }
+
+    .voucher-card h2 {
+        font-size: 1rem;
+        margin-bottom: 8px;
+    }
+
+    .voucher-card p {
+        font-size: 0.85rem;
+        margin-bottom: 12px;
+    }
+
+    .voucher-code {
+        font-size: 1rem;
+        padding: 6px;
+    }
+}

@@ -1,0 +1,138 @@
+.productCard {
+    width: 400px;
+    position: relative;
+    border: 1px solid silver;
+    border-radius: 4px;
+}
+
+.ForSaleImage {
+    height: 280px;
+    width: 400px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.ForSaleImage:hover {
+    opacity: 0.8;
+}
+
+.card-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.card-title {
+    width: 200px;
+}
+
+.card-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 160px;
+}
+
+.productName {
+    color: rgb(1, 1, 230);
+    font-family: 'Trebuchet MS';
+    margin: 10px 0;
+}
+
+.productSubTitle {
+    margin: 10px 0;
+}
+
+.productDescription {
+    height: 100px;
+    padding: 0 10px;
+    display: flex;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.productDescription>p {
+    margin: 0;
+}
+
+.price {
+    color: orange;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 10px 0;
+    width: 100%;
+    text-align: end;
+}
+
+.card-buttons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 6px;
+}
+
+.deductItem {
+    width: 30px;
+    height: 30px;
+    border-color: blueviolet;
+    border-radius: 8px;
+}
+
+.productQuantity {
+    color: crimson;
+    font-weight: bold;
+}
+
+.plusItem {
+    width: 30px;
+    height: 30px;
+    border-color: blueviolet;
+    border-radius: 8px;
+}
+
+.variant-dropdown {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid lightblue;
+    border-radius: 4px;
+    margin-left: 4px;
+}
+
+.add-to-cart-button {
+    background-color: #1be822;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 1rem;
+    margin: 10px 0 20px auto;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+}
+
+.add-to-cart-button:hover {
+    background-color: #33bd3a;
+    color: black;
+}
+
+.add-to-cart-button:disabled {
+    background-color: grey;
+    color: white;
+    cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+    .productCard {
+        width: 40%;
+    }
+}
+
+@media (max-width: 480px) {
+    .productCard {
+        width: 90%;
+    }
+}

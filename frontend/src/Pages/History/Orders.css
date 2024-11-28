@@ -1,0 +1,99 @@
+.title-container {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.headerContainer {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.historyIcon {
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+}
+
+.headerContainer span {
+    font-size: 28px;
+    font-weight: 600;
+    color: black;
+    letter-spacing: 0.5px;
+}
+
+.history-cards {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 50px 20px;
+}
+
+.history-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 25px;
+    width: 300px;
+    min-height: 170px;
+    border: 1px solid lightgreen;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.history-card:hover {
+    transform: translateY(-8px);
+}
+
+.history-card p {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #6a757d;
+}
+
+.history-card .date {
+    font-weight: 700;
+    color: #222;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.discount,
+.order-price,
+.quantity {
+    font-weight: 600;
+    color: #444;
+    font-size: 18px;
+}
+
+.no-orders {
+    font-size: 18px;
+    color: #999;
+    text-align: center;
+    padding: 30px 20px;
+    width: 100%;
+}
+
+
+@media (max-width: 768px) {
+    .history-cards {
+        padding: 30px 20px;
+    }
+
+    .history-card {
+        width: 100%;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .headerContainer span {
+        font-size: 24px;
+    }
+
+    .historyIcon {
+        margin-right: 15px;
+    }
+}
