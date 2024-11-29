@@ -1,1 +1,61 @@
-Readme goes here
+Project Setup Instructions:
+
+
+-- Frontend Setup --
+
+Install dependencies:
+npm install
+
+Navigate to the frontend folder:
+cd frontend
+
+Start the frontend development server:
+npm start
+
+-- Backend Setup --
+
+Install dependencies:
+npm install
+
+Navigate to the backend folder:
+cd backend
+
+Start the backend server:
+node index.js
+
+
+
+breakdown of what will work for each of the provided regex patterns.
+
+Address Pattern
+Pattern: /^(?:\d{1,5}\s[\w\s]+(?:\s[A-Za-z]+)?,\s[A-Za-z\s]+,\s[A-Za-z]{2}\s\d{5}(?:-\d{4})?)$/
+
+Examples that work:
+
+123 Main Street, Springfield, IL 62704
+456 Elm St, Los Angeles, CA 90001-1234
+789 Pine Ave, New York, NY 10001
+1001 1st Ave NW, Seattle, WA 98109-1234
+
+Email Pattern
+Pattern: /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+
+Examples that work:
+
+your actual email  
+example@example.com
+user.name@domain.co
+first.last@sub.domain.org
+user123@domain.com
+
+
+Password Pattern
+Pattern: /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{8,}$/
+
+Examples that work:
+
+Password1
+A1b2C3d4
+StrongPass9
+Test12345
+SecureP@ssword1 (Note: special characters are not required, but are allowed)
