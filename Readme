@@ -3,26 +3,27 @@ Project Setup Instructions:
 
 -- Frontend Setup --
 
-Install dependencies:
-npm install
 
 Navigate to the frontend folder:
 cd frontend
 
+Install dependencies:
+npm install
+
 Start the frontend development server:
 npm start
 
--- Backend Setup --
 
-Install dependencies:
-npm install
+-- Backend Setup --
 
 Navigate to the backend folder:
 cd backend
 
+Install dependencies:
+npm install
+
 Start the backend server:
 node index.js
-
 
 
 breakdown of what will work for each of the provided regex patterns.
